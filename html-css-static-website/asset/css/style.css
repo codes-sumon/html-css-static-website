@@ -41,7 +41,7 @@ a, a:hover {
 }
 
 .calender-image{
-    background-image: url("asset/img/calender-bg.jpg");
+    background-image: url("../img/calender-bg.jpg");
     height: 250px;
     width: 500px;
     align-content: center;
@@ -177,7 +177,7 @@ footer span a:hover{
 /* home section styling */
 .home{
     display: flex;
-    background-image: url("banner.jpg") no-repeat center;
+    background: url("../img/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -402,7 +402,7 @@ section{
     color: #02D002;
 }
 .sub-title a i{
-    color: #8079df !important
+    color: #333 !important
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -529,4 +529,9 @@ section{
 }
 .cv-title i, .cv-left i{
     color: #001C40;
+}
+
+.cv-body table, .cv-body table tr td ,.cv-body table tr th{
+    border: 1px solid #111;
+    border-collapse: collapse;
 }
