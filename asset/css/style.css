@@ -17,7 +17,11 @@ h2 {
 body {
     font-family: 'Open Sans', sans-serif;
     color: #565656;
-    font-size: 17px;    
+    font-size: 17px;  
+    scroll-behavior: smooth;  
+}
+html{
+    scroll-behavior: smooth;
 }
 *{
     margin: 0px;
