@@ -534,4 +534,13 @@ section{
 .cv-body table, .cv-body table tr td ,.cv-body table tr th{
     border: 1px solid #111;
     border-collapse: collapse;
+
+}
+.cv-body table tr td{
+    padding: 3px;
+}
+
+.cv-body table{
+    width:100%;
+    margin: 5px;
 }
