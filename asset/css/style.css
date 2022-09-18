@@ -33,7 +33,7 @@ a, a:hover {
 
 /* Calender css */
 .section-padding{
-    margin: 140px 0px 80px 0px;
+    margin: 100px 0px 80px 0px;
     padding: 0px;
 }
 .calender {
@@ -351,7 +351,7 @@ section{
     margin: 10px;
 }
 .services .serv-content .card:hover{
-    background: #02D002;
+    background: #3ec73e;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -406,7 +406,10 @@ section{
     color: #02D002;
 }
 .sub-title a i{
-    color: #333 !important
+    color: #7874b6 !important
+}
+.sub-title a i:hover{
+    color: #4f49a0 !important
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -547,4 +550,57 @@ section{
 .cv-body table{
     width:100%;
     margin: 5px;
+}
+
+.personal-dtl table, .personal-dtl table tr td ,.personal-dtl table tr th{
+    border: none;
+    border-collapse: collapse;
+
+}
+.personal-dtl table tr td{
+    padding: 3px;
+}
+
+.personal-dtl table{
+    width:100%;
+    margin: 5px;
+}
+
+.personal-dtl table tr td:nth-child(1){
+    width: 25%;
+}
+.ref table tr td a{
+    color: #111;
+}
+/*
+.ref table tr td:nth-child(4){
+    width: 37%;
+    border-left: 1px solid #111;
+}
+.ref table tr td:nth-child(3){
+    border-left: 1px solid #111;
+} 
+.ref table tr td ,.ref table tr th{
+    border: none;
+    border-collapse: collapse;
+}*/
+
+.signeture{
+    margin: 20px 0px;
+    
+}
+.signeture img{
+    width: 20%;
+    margin-top: -6px;
+}
+.signeture hr{
+    width: 20%;
+}
+
+.signeture p{
+    margin-top: -8px;
+    
+}
+.sub-title a{
+    color: #8079df;
 }
